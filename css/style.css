@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  background-color: hsl(216deg, 12%, 8%);
+  color: white;
+  max-width: 375px;
+  height: 600px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  background-color: rgb(31, 38, 48);
+  width: 360px;
+  height: 400px;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+main span {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(37, 45, 54);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main p {
+  color: hsl(216deg, 12%, 54%);
+}
+main ul {
+  display: inline-flex;
+  justify-content: space-around;
+}
+main ul li {
+  list-style: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(37, 45, 54);
+  color: hsl(216deg, 12%, 54%);
+}
+main button {
+  height: 40px;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  background-color: hsl(25deg, 97%, 53%);
+}
+
+@media screen and (min-width: 1440px) {
+  /*sa*/
+}/*# sourceMappingURL=style.css.map */
